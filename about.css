@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#2b1055, #7597de);
+  overflow-y: hidden;
+}
+
+header {
+  position: absolute;
+  top: -19px;
+  left: -324px;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+header.logo {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  height: 720px;
+  background-size: contain;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+  background: #fff;
+  color: #2b1055;
+}
+.aboutme{
+    width: 85px;
+    border-radius: 27px;
+    margin-left: 32px;
+    margin-top: -8px;
+    position: absolute;
+}
+h4{
+    margin-top: 136px;
+    margin-left: 20px;
+    color: #fff;
+    position: absolute;
+}
+.caracteristics{
+    position: absolute;
+    color: #fff;
+    margin-top: 160px;
+    text-align: center;
+}
+.aboutmahdi{
+    width: 85px;
+    border-radius: 27px;
+    margin-left: 32px;
+    margin-top: 193px;
+    height: 134px;
+    position: absolute;
+}
+.mahdi{
+     margin-top: 333px;
+    margin-left: 17px;
+    color: #fff;
+    position: absolute;
+}
+.aboutasma{
+   width: 85px;
+    border-radius: 27px;
+    margin-left: 32px;
+    margin-top: 359px;
+    height: 134px;
+    position: absolute;
+}
+.asma{
+
+    margin-top: 500px;
+    margin-left: 15px;
+    color: #fff;
+    position: absolute;
+}
+.aboutdhia{
+
+  width: 85px;
+    border-radius: 27px;
+    margin-left: 32px;
+    margin-top: 522px;
+    height: 134px;
+    position: absolute;
+
+}
+.dhia{
+   margin-top: 665px;
+    margin-left: 15px;
+    color: #fff;
+    position: absolute;
+}
+
+.haroun{
+  margin-top: 65px;
+    margin-left: 1313px;
+    color: #fff;
+    position: absolute;
+}
+.Chaima{
+   margin-top: 102px;
+    margin-left: 1313px;
+    color: #fff;
+    position: absolute;
+}
+.description1{
+     position: absolute;
+    color: #fff;
+    margin-top: 388px;
+    text-align: center;
+}
+
+.night {
+  height: 80vh;
+  width: 70vw;
+  border: 1px solid black;
+  margin: 5rem auto;
+  background: url(/img/Img_1.png);
+  background-size: cover;
+  position: relative;
+  box-shadow: 1px 2px 60px rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+}
+
+.surface {
+  height: 140px;
+  width: 500%;
+  background: url(/img/Img_02.png);
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-repeat: repeat-x;
+  animation: moveRight 6s linear infinite;
+}
+.car {
+  position: absolute;
+  bottom: 7%;
+  left: 24%;
+}
+
+/* Animation */
+
+@keyframes moveRight {
+  100% {
+    transform: translateX(-2950px);
+  }
+}
